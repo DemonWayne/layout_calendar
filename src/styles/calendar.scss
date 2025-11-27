@@ -22,7 +22,8 @@
     background-color: $day-background-color;
     border: $day-border;
     transition-duration: $transition-duration;
-    transition-delay: $transition-delay;
+    font-size: $day-font-size;
+    font-family: $day-font-family;
 
     &:hover {
       cursor: pointer;

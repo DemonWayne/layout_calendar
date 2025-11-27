@@ -1,15 +1,14 @@
 $calendar-gap: 1px;
 $calendar-padding: 10px;
-$calendar-width: 726px;
 $day-size: 100px;
 $day-background-color: #eee;
 $day-border: 1px solid #000;
 $day-font-size: 30px;
 $day-font-family: Arial, Helvetica, sans-serif;
 $transition-duration: 500ms;
-$transition-delay: 500ms;
 $hover-transform: translateY(-20px);
 $hover-background-color: #ffbfcb;
+$calendar-width: (7 * $day-size) + (6 * $calendar-gap) + (2 * $calendar-padding);
 $days: (
   'mon': 1,
   'tue': 2,
